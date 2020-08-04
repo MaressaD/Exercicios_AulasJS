@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var x = window.prompt('Digite um numero x')
+        var y = window.prompt('Digite um numero y')
+        var recebePares
+         function pares(a,b){
+             var c='Pares(';
+             for(i=a;i<=b;i++){
+                if(i%2==0){
+                    if(i==b){
+                        c+=i+').'
+                    }
+                    else{   
+                    c+=i+','
+                    }
+                }
+            }
+            return c
+         }
+         var recebePares=pares(x,y)
+         document.write(recebePares)
+
+
+
+
+
+    </script>
+
+</body>
+</html>

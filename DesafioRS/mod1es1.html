@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio1-Modulo1</title>
+</head>
+<body>
+    <script>
+        function retornaEnd(){
+        var endereco ={
+            rua: "Rua dos Pinheiros",
+            numero: "1293",
+            bairro: "Centro",
+            cidade: "São Paulo",
+            UF: "SP",
+          }
+          
+          return `O usuário mora em ${endereco.cidade}/${endereco.UF}, no bairro ${endereco.bairro}, na rua ${endereco.rua} com nª ${endereco.numero}.`;
+        };
+        var a =retornaEnd();
+        document.write(a)
+        
+
+
+    </script>
+</body>
+</html>
